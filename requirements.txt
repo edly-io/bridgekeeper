@@ -2,4 +2,4 @@
 # when trying to install Bridgekeeper.
 -e .[dev]
 django
-setuptools_scm
+setuptools_scm==5.0.2     # We have to pin at v5.0.2 because juniper release uses python 3.5 and latest version removed python 3.5 support
